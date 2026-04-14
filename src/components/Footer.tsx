@@ -7,7 +7,9 @@ const Footer = () => (
         </div>
         <span className="text-foreground font-bold text-sm">ReputGuard</span>
       </div>
-      <p className="text-muted-foreground text-sm">© 2024 ReputGuard. Все права защищены.</p>
+      <p className="text-muted-foreground text-sm">
+        © 2026 ReputGuard. Все права защищены.
+      </p>
     </div>
   </footer>
 );
