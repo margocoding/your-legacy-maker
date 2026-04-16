@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section
-      className="relative min-h-screen space-y-10 items-center p-20"
+      className="relative min-h-screen space-y-10 items-center md:p-20 max-md:py-10 max-md:p-5"
       style={{ background: "var(--hero-gradient)" }}
     >
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="opacity-50">
+        <div className="opacity-50 max-md:hidden">
           <img src="/images/hero_image.png" alt="hero"/>
         </div>
       </div>
