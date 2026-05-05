@@ -19,12 +19,12 @@ const Header = () => {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">
-                R
+                M
               </span>
             </div>
             <div>
               <span className="text-foreground font-bold text-lg tracking-tight">
-                ReputGuard
+                MajoraSerm
               </span>
               <span className="hidden md:block text-muted-foreground text-xs">
                 Управление репутацией
@@ -46,18 +46,18 @@ const Header = () => {
 
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+79991234567"
+              href="tel:+79998499937"
               className="flex items-center gap-2 text-foreground font-semibold text-sm"
             >
               <Phone size={16} className="text-primary" />
-              +7 (999) 123-45-67
+              +7 (999) 849-99-37
             </a>
             <a
-              href="mailto:info@reputguard.ru"
+              href="mailto:majoraserm@gmail.com"
               className="flex items-center gap-2 text-muted-foreground text-sm"
             >
               <Mail size={16} className="text-primary" />
-              info@reputguard.ru
+              majoraserm@gmail.com
             </a>
           </div>
 
@@ -83,10 +83,10 @@ const Header = () => {
             </a>
           ))}
           <a
-            href="tel:+79991234567"
+            href="tel:+79998499937"
             className="block text-foreground font-semibold text-sm py-2"
           >
-            +7 (999) 123-45-67
+            +7 (999) 849-99-37
           </a>
         </div>
       )}

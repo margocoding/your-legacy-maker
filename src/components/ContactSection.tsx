@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => (
@@ -17,9 +17,9 @@ const ContactSection = () => (
 
           <div className="space-y-5">
             {[
-              { icon: Phone, label: "+7 (999) 123-45-67", sub: "Ежедневно 9:00–20:00" },
-              { icon: Mail, label: "info@reputguard.ru", sub: "Ответим в течение часа" },
-              { icon: MapPin, label: "Москва, Россия", sub: "Работаем по всему миру" },
+              { icon: Phone, label: "+7 (999) 849-99-37", sub: "Ежедневно 9:00–20:00" },
+              { icon: Mail, label: "majoraserm@gmail.com", sub: "Ответим в течение часа" },
+              { icon: MessageCircle, label: "@majoraserm", sub: "Ответим в Telegram" },
             ].map((c) => (
               <div key={c.label} className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
