@@ -4,6 +4,10 @@ import ServicesSection from "@/components/ServicesSection";
 import RemovalSection from "@/components/RemovalSection";
 import TrustSection from "@/components/TrustSection";
 import AdvantagesSection from "@/components/AdvantagesSection";
+import BlogSection from "@/components/BlogSection";
+import FAQSection from "@/components/FAQSection";
+import ReviewsSection from "@/components/ReviewsSection";
+import CertificatesSection from "@/components/CertificatesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -15,6 +19,10 @@ const Index = () => (
     <RemovalSection />
     <TrustSection />
     <AdvantagesSection />
+    <BlogSection />
+    <FAQSection />
+    <ReviewsSection />
+    <CertificatesSection />
     <ContactSection />
     <Footer />
   </div>
