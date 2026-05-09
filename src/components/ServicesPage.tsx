@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+// Updated: Test change for commit tracking
 const services = [
   {
     title: "Удаление негатива",

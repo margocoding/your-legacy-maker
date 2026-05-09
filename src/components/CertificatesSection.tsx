@@ -1,5 +1,6 @@
 import { FileCheck, Award, ShieldCheck } from "lucide-react";
 
+// Updated: Test change for commit tracking
 const certificates = [
   { icon: FileCheck, title: "Свидетельство о регистрации", desc: "ОГРНИП 326700000024895" },
   { icon: Award, title: "Сертификат специалиста по SERM", desc: "Международная ассоциация цифрового маркетинга" },

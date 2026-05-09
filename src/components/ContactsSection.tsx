@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
+// Updated: Test change for commit tracking
 const contacts = [
   { icon: Phone, label: "+7 (999) 849-99-37", sub: "Ежедневно 9:00–20:00" },
   { icon: Mail, label: "majoraserm@gmail.com", sub: "Ответим в течение часа" },

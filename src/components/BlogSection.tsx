@@ -1,5 +1,6 @@
 import { Calendar, Clock, User } from "lucide-react";
 
+// Updated: Test change for commit tracking
 const blogPosts = [
   { title: "Как удалить негатив из поисковиков", date: "15 янв 2026", read: "5 мин", excerpt: "Пошаговая инструкция по удалению компрометирующей информации..." },
   { title: "SERM vs ORM: в чём разница?", date: "10 янв 2026", read: "4 мин", excerpt: "Разбираем ключевые отличия систем управления репутацией..." },
