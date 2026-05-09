@@ -41,9 +41,9 @@ const RemovalSection = () => (
             <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center mb-4 group-hover:bg-accent/20 transition-colors">
               <item.icon size={28} className="text-accent" />
             </div>
-            <span className="text-foreground text-sm font-medium">
+            <h3 className="text-foreground text-sm font-medium">
               {item.label}
-            </span>
+            </h3>
           </div>
         ))}
       </div>

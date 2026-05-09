@@ -7,7 +7,6 @@ const HeroSection = () => {
       className="relative min-h-screen space-y-10 items-center md:p-20 max-md:py-10 max-md:p-5"
       style={{ background: "var(--hero-gradient)" }}
     >
-
       <div className="grid grid-cols-2 py-10 items-center w-full">
         <div className="mx-auto relative z-10">
           <div className="max-w-3xl">
@@ -52,7 +51,7 @@ const HeroSection = () => {
         </div>
 
         <div className="opacity-50 max-md:hidden">
-          <img src="/images/hero_image.png" alt="hero"/>
+          <img src="/images/hero_image.png" alt="hero" />
         </div>
       </div>
       <div className="absolute inset-0 overflow-hidden">
@@ -60,9 +59,9 @@ const HeroSection = () => {
         <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-primary/3 rounded-full blur-3xl" />
       </div>
 
-
       <div>
         <div className="container mx-auto px-4">
+          <h2 className="sr-only">Ключевые преимущества нашей компании</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border/30 rounded-t-xl overflow-hidden">
             {[
               {
