@@ -1,5 +1,6 @@
 import { Phone, Mail } from "lucide-react";
 
+// Updated: Test change for commit tracking
 const Footer = () => (
     <footer className="border-t border-border py-12">
         <div className="container mx-auto px-4">
