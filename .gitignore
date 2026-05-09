@@ -1,13 +1,9 @@
-```
 # Dependencies
 node_modules/
 
 # Build artifacts
 dist/
 build/
-*.js
-*.ts
-*.tsx
 
 # Environment variables
 .env
@@ -48,4 +44,3 @@ htmlcov/
 
 # MyPy cache
 .mypy_cache/
-```
